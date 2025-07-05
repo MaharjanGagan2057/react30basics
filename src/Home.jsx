@@ -3,7 +3,8 @@ import Button from "./Button";
 function Home() {
     return (
         <div>
-
+          <div>
+            <h1>Home Page</h1>
             <h1>Welcome to the Home Page</h1>
             <p>This is the main landing page of our application.</p>
             <p>Feel free to explore the other pages using the navigation links.</p>
@@ -11,6 +12,10 @@ function Home() {
             <Button name="Login"/>
             <Button name="Logout" />
             <Button name="Profile" />
+         </div>
+        <div>
+            <Cards name="Cards"/>
+        </div>
         </div>
     )
 }
