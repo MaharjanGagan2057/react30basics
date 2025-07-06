@@ -5,6 +5,7 @@ import Home from './Home'//this is for routing home
 import About from './About'//this is for routing about
 import { Contact } from './Contact' //this is for routing contact
 import Services from './services'
+import UseEffect from './UseEffect'
 function App() {
 
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path='/About' element={<About/>}></Route>
       <Route path='/contact' element={<Contact/>}></Route>
       <Route path='/services' element={<Services/>}></Route>
+      <Route path='/UseEffect' element={<UseEffect/>}></Route>
 
     </Routes>
     </BrowserRouter>
